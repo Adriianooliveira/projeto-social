@@ -40,7 +40,27 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 12%;
-    left: 6.5%;
-    width: 270px;
+    left: 7.2%;
+    width: 267px;
     height: 478px;
+}
+
+section#redes-sociais {
+    text-align: right;
+    padding-top: 250px;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid rgba(199, 150, 85, 0.781);
+    transform: translate(-5%, -5%);
+    transition: transform 0.2s, border 0.1s;
 }
